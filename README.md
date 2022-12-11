@@ -46,9 +46,9 @@ git checkout <team_name>
 
 1.  Jupyter notebook with code and explanation
        
-2.  A video of 3-5 minutes, embedded in or linked from the Jupyter notebook. The video should summarize your experiment and results. Include a text file containing a transcription of the audio.
+2.  A video of 3-8 minutes, embedded in or linked from the Jupyter notebook. The video should summarize your experiment and results. Include a text file containing a transcription of the audio.
         
-3. The Jupyter notebook should include results and analysis for an experiment in which:
+3. The Jupyter notebook should include results and analysis for an experiment in which you:
         
    a. Prepare a state in which two or more qubits are entangled.
  
@@ -74,15 +74,15 @@ You may assume exposure (requiring a reminder) to specific entry-level QISE know
 
  * The state of a qubit can be expressed as a|0> + b|1>. 
  * After measurement, a qubit is in a state in that basis corresponding to the measured outcome.
- * Identify the results of the two-slit experiment, repeated Stern Gerlach measurements (for orthogonal axes, i.e. without trig), and delayed choice experiments.
+ * Identify the results of the two-slit experiment, sequential x or y Stern Gerlach measurements, and delayed choice experiments.
  * Represent a single qubit state on the Bloch sphere.
- * Represent a z-eigenstate of a set of qubits using  |010> or |0>|1>|0>) or |2>. 
+ * Represent a z-eigenstate of a set of qubits using |010> or |0>|1>|0> or |2>. 
  * Construct a quantum circuit using a Python library.
  * Use summation notation with a single index.
 
 Do not assume exposure or knowledge of:
 
-* mathematically how to change bases (arbitrary angles)
+* mathematically how to change to another basis (arbitrary angles)
 * the tensor product
 * the density matrix
 
@@ -94,7 +94,7 @@ You may assume (without a reminder)
 
 # Rubric
 
-Entries will be evaluated by a panel based upon:
+As reflected in the rubric below, entries will be evaluated by a panel based upon:
  
   * Explanation of experimental design
   * Explanation of entanglement 
@@ -102,3 +102,24 @@ Entries will be evaluated by a panel based upon:
   * Explanation of the meaning and significance of the results 
 
 The panel will certify the submission as evidence of understanding of the learning objectives.
+
+ 
+| | 5 = Evidence of deep understanding: Science is correct and sufficient  | 4 = Evidence of understanding: nuances, omissions, or a regurgitation make evidence imperfect |  3 = Evidence of limited understanding: Explanations address key concepts but with significant missteps |  2 = Evidence of awareness: Explanations use are on-topic but largely incorrect | 1 = No evidence: The topic is not addressed in this deliverable |
+|:---|:---:|:---:|:---:|:---:|:---:|
+|Prose explanation of entanglement  ||||||
+|Video explanation of entanglement ||||||
+|Prose explanation of experimental design  ||||||
+|Video explanation of experimental design  ||||||
+|Prose explanation of the meaning of the results  ||||||
+|Video explanation of the meaning of the results  ||||||
+
+The entries will also be scored based on accessibility to the audience.
+
+||5 = Teaching Expert: Minimal background knowledge is carefully identified and explicitly introduced by reminder | 4 = Teaching Attempt: Terms are introduced as needed but technical and common vocabulary present unnecessary barriers | 3 = Lecture Ignorant of Audience: Needed preliminary concepts are presumed without explanation or reminder | 2 = Specialist Research Talk: The explanation is not at all appropriate for the audience | 1 = No Evidence: The topic is not addressed in this deliverable |
+|:---|:---:|:---:|:---:|:---:|:---:|
+|Prose explanation of entanglement  ||||||
+|Video explanation of entanglement ||||||
+|Prose explanation of experimental design  ||||||
+|Video explanation of experimental design  ||||||
+|Prose explanation of the meaning of the results  ||||||
+|Video explanation of the meaning of the results  ||||||
